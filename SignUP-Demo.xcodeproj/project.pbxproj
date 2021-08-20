@@ -16,6 +16,7 @@
 		BD8DB4BF26CFA6CF0088FA08 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8DB4BE26CFA6CF0088FA08 /* SignUpViewController.swift */; };
 		BD8DB4C126CFA6F20088FA08 /* SignUpSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8DB4C026CFA6F20088FA08 /* SignUpSecondViewController.swift */; };
 		BD8DB4C426CFA74E0088FA08 /* UserInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8DB4C326CFA74E0088FA08 /* UserInformation.swift */; };
+		BD8DB4C626CFAF9B0088FA08 /* LoggedInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8DB4C526CFAF9B0088FA08 /* LoggedInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		BD8DB4BE26CFA6CF0088FA08 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		BD8DB4C026CFA6F20088FA08 /* SignUpSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpSecondViewController.swift; sourceTree = "<group>"; };
 		BD8DB4C326CFA74E0088FA08 /* UserInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInformation.swift; sourceTree = "<group>"; };
+		BD8DB4C526CFAF9B0088FA08 /* LoggedInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				BD8DB4B226CF88BC0088FA08 /* Assets.xcassets */,
 				BD8DB4B426CF88BC0088FA08 /* LaunchScreen.storyboard */,
 				BD8DB4B726CF88BC0088FA08 /* Info.plist */,
+				BD8DB4C526CFAF9B0088FA08 /* LoggedInViewController.swift */,
 			);
 			path = "SignUP-Demo";
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 				BD8DB4AA26CF88BA0088FA08 /* AppDelegate.swift in Sources */,
 				BD8DB4BF26CFA6CF0088FA08 /* SignUpViewController.swift in Sources */,
 				BD8DB4AC26CF88BA0088FA08 /* SceneDelegate.swift in Sources */,
+				BD8DB4C626CFAF9B0088FA08 /* LoggedInViewController.swift in Sources */,
 				BD8DB4C126CFA6F20088FA08 /* SignUpSecondViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
