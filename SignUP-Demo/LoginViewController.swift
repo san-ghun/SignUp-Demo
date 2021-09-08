@@ -136,6 +136,8 @@ class LoginViewController: UIViewController {
         button.setTitle("Sign In", for: .normal)
         button.setTitleColor(UIColor.blue, for: .normal)
         
+        button.addTarget(self, action: #selector(touchUpSignInButton), for: UIControl.Event.touchUpInside)
+        
         let top: NSLayoutConstraint
         top = button.topAnchor.constraint(equalTo: self.pwdTextField.bottomAnchor, constant: 5)
         
@@ -157,6 +159,8 @@ class LoginViewController: UIViewController {
         button.setTitle("Sign Up", for: .normal)
         button.setTitleColor(UIColor.gray, for: .normal)
         
+        button.addTarget(self, action: #selector(touchUpSignUpButton), for: UIControl.Event.touchUpInside)
+        
         let top: NSLayoutConstraint
         top = button.topAnchor.constraint(equalTo: self.pwdTextField.bottomAnchor, constant: 5)
         
@@ -168,8 +172,23 @@ class LoginViewController: UIViewController {
         
         self.signUpButton = button
     }
+    
+    
     // MARK: IBActions
-
+    @IBAction func touchUpSignInButton() {
+        let rootVC = LoggedInViewController()
+        let navVC = UINavigationController(rootViewController: rootVC)
+        navVC.modalPresentationStyle = .fullScreen
+        present(navVC, animated: true)
+        
+    }
+    
+    @objc func touchUpSignUpButton() {
+        let rootVC = SignUpViewController()
+        let navVC = UINavigationController(rootViewController: rootVC)
+        navVC.modalPresentationStyle = .fullScreen
+        present(navVC, animated: true, completion: nil)
+    }
 
 }
 
